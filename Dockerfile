@@ -1,7 +1,7 @@
 FROM chrisamiller/docker-r:3.5.0
 MAINTAINER Chris Miller <c.a.miller@wustl.edu>
 
-LABEL Image for single-cell RNAseq analyses with seurat
+LABEL Image for single-cell RNAseq analyses incl seurat
 
 #some basic tools
 RUN apt-get update -y && apt-get install -y --no-install-recommends \
