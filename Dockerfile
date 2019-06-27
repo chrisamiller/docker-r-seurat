@@ -83,5 +83,3 @@ RUN git clone https://github.com/arq5x/bedtools2.git && \
    ADD r-seurat.R /tmp/
    RUN R -f /tmp/r-seurat.R
 
-## tsv conversion to excel
-COPY tsv2xlsx.py /usr/bin/tsv2xlsx.py
